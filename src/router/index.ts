@@ -6,15 +6,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/ninetosixfitvibes',
-    },
-    {
-      path: '/ninetosixfitvibes',
-      name: 'ninetosixfitvibes',
+      name: 'home',
       component: HomeView,
     },
     {
-      path: '/ninetosixfitvibes/about',
+      path: '/about',
       name: 'about',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
